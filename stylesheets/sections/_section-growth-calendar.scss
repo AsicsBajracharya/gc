@@ -1,0 +1,48 @@
+.section-growth-calendar {
+  .event-list-container {
+    margin-top: 18px;
+    ul.event-list {
+      list-style: none;
+      li {
+        display: flex;
+        padding: 20px 20px 20px 0;
+        background-color: $color-gc-cyan;
+        margin-bottom: 18px;
+        &:nth-child(2n) {
+          background-color: $color-gc-orange-1;
+        }
+        .event-left {
+          border-right: 1px solid white;
+          width: 76px;
+          text-align: center;
+          p {
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+          }
+        }
+        .event-title {
+          display: flex;
+          align-items: center;
+          padding: 14px;
+          h3 {
+            flex-grow: 1;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-growth-calendar {
+  .content-container {
+    padding: 36px 52px;
+    box-shadow: 0 19 47 0 rgba(0, 0, 0, 0.1);
+    h2 {
+      margin-bottom: 31px;
+    }
+  }
+}

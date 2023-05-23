@@ -1,0 +1,39 @@
+.section-growth-coaching-program {
+  padding: 100px 0 32px;
+  background-size: cover;
+  @media (max-width: 768px) {
+    padding: 44px 0;
+  }
+  .header-box {
+    width: 548px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    @media (max-width: 768px) {
+      margin-bottom: 29px;
+    }
+    h1 {
+      color: $color-gc-blue;
+    }
+  }
+  .header-box-secondary {
+    h2 {
+      color: $color-gc-blue;
+    }
+    margin-bottom: 30px;
+    @media (max-width: 768px) {
+      margin-bottom: 15px;
+    }
+  }
+  .text-box {
+    margin-bottom: 30px;
+  }
+
+  .slick-track {
+    display: flex !important;
+  }
+
+  .slick-slide {
+    height: inherit !important;
+  }
+}

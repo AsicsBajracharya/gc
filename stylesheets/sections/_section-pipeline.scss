@@ -1,0 +1,13 @@
+.section-pipeline {
+  padding: 70px 0;
+  background-size: cover;
+  @media (max-width: 768px) {
+    padding: 19px 0;
+  }
+  .header-box {
+    width: 632px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

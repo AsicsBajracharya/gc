@@ -1,0 +1,18 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "\"A sass boilder plate to smooth work on the front\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass stylesheets/main.scss css/style.css -w --source-map true --source-map-embed true"
+  },
+  "author": "Ashish Bajracharya, github.com/asicsBajracharya",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "react-mentions": "^4.4.7"
+  }
+}
